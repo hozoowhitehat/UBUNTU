@@ -1,6 +1,9 @@
 
 
 
+git clone https://github.com/hozoowhitehat/UBUNTU
+
+cd UBUNTU
 
 docker build -t custom-xfce-vnc-novnc .
 docker run -d --name xfce \
